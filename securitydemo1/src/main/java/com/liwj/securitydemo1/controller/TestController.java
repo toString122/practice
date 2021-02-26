@@ -19,4 +19,9 @@ public class TestController {
         return "hello index";
     }
 
+    @GetMapping("update")
+    public String update(){
+        return "hello update";
+    }
+
 }
